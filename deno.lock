@@ -1,0 +1,56 @@
+{
+  "version": "4",
+  "redirects": {
+    "https://esm.sh/acorn@^7.1.1?target=denonext": "https://esm.sh/acorn@7.4.1?target=denonext",
+    "https://esm.sh/bindings@^1.5.0?target=denonext": "https://esm.sh/bindings@1.5.0?target=denonext",
+    "https://esm.sh/bit-twiddle@^1.0.2?target=denonext": "https://esm.sh/bit-twiddle@1.0.2?target=denonext",
+    "https://esm.sh/gl-wiretap@^0.6.2?target=denonext": "https://esm.sh/gl-wiretap@0.6.2?target=denonext",
+    "https://esm.sh/gl@^8.0.2?target=denonext": "https://esm.sh/gl@8.1.6?target=denonext",
+    "https://esm.sh/glsl-tokenizer@^2.1.5/string?target=denonext": "https://esm.sh/glsl-tokenizer@2.1.5/string?target=denonext"
+  },
+  "remote": {
+    "https://esm.sh/@eduardoleao052/gpu@2.19.0": "cc8a0bb016e799f852b213c01d0f5e63ae1d5fc53e108a99411e7d2841d2a61b",
+    "https://esm.sh/@eduardoleao052/gpu@2.19.0/denonext/gpu.mjs": "7ee1f734928f8c0cafcf77ffe1465368bb4c0697e7ffce8ef7c03e3972da6c2e",
+    "https://esm.sh/@eduardoleao052/gpu@2.19.0/esnext/gpu.development.mjs": "0a6784f1e6b8617900f29deedbe3ffd6e0ad0ba24257a3a4943c58275da1516e",
+    "https://esm.sh/@eduardoleao052/gpu@2.19.0?dev&target=esnext": "dbdaf7fc48eb763cf034768d4ac1f9258dd32331b4757f9ea06421d94c893641",
+    "https://esm.sh/acorn@7.4.1/denonext/acorn.mjs": "815421dd7195cfbd2cdd08a27a6a95f719cd082eee0622ff909232548da69968",
+    "https://esm.sh/acorn@7.4.1?target=denonext": "59c4c7d42fbcaab02952b14de0059c90f05e51c26c897703b2ef4d297d6507a9",
+    "https://esm.sh/bindings@1.5.0/denonext/bindings.mjs": "e4cf60819f9cfbd005ba93a34174320c018173b505a1bcaf5431483b405b5558",
+    "https://esm.sh/bindings@1.5.0?target=denonext": "9cff5cf649c297562fb16520ccdb9bcdb158a744112f187d41cdf5e7a1d92985",
+    "https://esm.sh/bit-twiddle@1.0.2/denonext/bit-twiddle.mjs": "aa89bfc3b032a245d70750293996be2c709953f9a38d291a835946e3e131128b",
+    "https://esm.sh/bit-twiddle@1.0.2?target=denonext": "01c91fd4759d00266c24a3c28da8b34d275c228583aaa52548b59d3a0a3ce50b",
+    "https://esm.sh/file-uri-to-path@1.0.0/denonext/file-uri-to-path.mjs": "597a05ad6580b13ea58bdbc547ad2a47bd9cc5ba8ae9935dbfd270f84d97f286",
+    "https://esm.sh/gl-wiretap@0.6.2/denonext/gl-wiretap.mjs": "b4b47c12311a1a9fc9b1eeae74e0d4845cc107788752d2494215854a8a483b33",
+    "https://esm.sh/gl-wiretap@0.6.2?target=denonext": "f67ce89e79588d180df487ff0a52c4bb6f3c261fdef7dc598ae43d60205fd9db",
+    "https://esm.sh/gl@8.1.6/denonext/gl.mjs": "6a7926977e0fe63fcf876286666fe804a033b0e0c1cbeb03ab5d3cda78182720",
+    "https://esm.sh/gl@8.1.6?target=denonext": "deb22511ecfd874d057e78e3051c681a775425b74e2596fa1d9f447f853cf1a5",
+    "https://esm.sh/glsl-tokenizer@2.1.5/denonext/glsl-tokenizer.mjs": "1be23f71cc939ed03e62b1c5ab78c70eb47228fa02b1e517566f6b451d088a8d",
+    "https://esm.sh/glsl-tokenizer@2.1.5/string?target=denonext": "228b7756d40ba1fdab91658ca336272dba62ea109a0bef84ab3384708c3681bd"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@babel/core@^7.24.3",
+        "npm:@babel/preset-env@^7.24.3",
+        "npm:@babel/preset-typescript@^7.24.1",
+        "npm:@eduardoleao052/gpu@2.19.0",
+        "npm:@types/jest@^29.5.12",
+        "npm:@typescript-eslint/eslint-plugin@^7.4.0",
+        "npm:@typescript-eslint/parser@^7.4.0",
+        "npm:babel-jest@^29.7.0",
+        "npm:copyfiles@^2.4.1",
+        "npm:eslint-config-prettier@^9.1.0",
+        "npm:eslint-plugin-jest@^27.9.0",
+        "npm:eslint-plugin-prettier@^5.1.3",
+        "npm:eslint@^8.57.0",
+        "npm:jest@^29.7.0",
+        "npm:pkgroll@^2.0.2",
+        "npm:prettier@^3.2.5",
+        "npm:tinybench@^2.6.0",
+        "npm:ts-jest@^29.1.2",
+        "npm:tsx@^4.7.1",
+        "npm:typescript@^5.4.3"
+      ]
+    }
+  }
+}
