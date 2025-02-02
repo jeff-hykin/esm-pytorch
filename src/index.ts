@@ -1,4 +1,4 @@
-﻿import {
+import {
   Tensor,
   Parameter,
   add,
@@ -25,7 +25,7 @@
   ones,
   zeros,
   broadcast
-} from "./tensor.js";
+} from "./tensor.ts";
 import {
   Module,
   Linear,
@@ -42,9 +42,10 @@ import {
   MSELoss,
   save,
   load
-} from "./layers.js";
-import { Adam } from "./optim.js";
-import { getShape } from "./utils.js";
+} from "./layers.ts";
+import { Adam } from "./optim.ts";
+import { getShape } from "./utils.ts";
+
 
 const nn = {
   Module,
@@ -65,7 +66,7 @@ const nn = {
 const optim = { Adam };
 
 export const torch = {
-  // Add methods from tensor.js (these methods are accessed with "torch."):
+  // Add methods from tensor.ts (these methods are accessed with "torch."):
   Tensor,
   Parameter,
   add,

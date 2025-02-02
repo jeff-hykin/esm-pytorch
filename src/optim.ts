@@ -1,4 +1,4 @@
-﻿import { Parameter, Tensor, zeros } from "./tensor";
+import { Parameter, Tensor, zeros } from "./tensor.ts";
 
 export class Adam {
   // Declare Adam's types:

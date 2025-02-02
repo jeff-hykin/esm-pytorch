@@ -1,4 +1,4 @@
-﻿import {
+import {
   Parameter,
   Tensor,
   randn,
@@ -13,8 +13,8 @@
   mul,
   log,
   _reshape
-} from "./tensor";
-import fs from 'fs';
+} from "./tensor.ts";
+import fs from 'node:fs';
 
 
 // Interface that contains all the types of Module's attributes:

@@ -1,4 +1,4 @@
-﻿import { getShape, getData, assureArray } from "./utils";
+import { getShape, getData, assureArray } from "./utils.ts";
 
 // <<< Tensor class, holds n-dimensional tensors, and multiple useful methods >>> //
 
@@ -268,7 +268,7 @@ export class Tensor {
     if (other.forwardKernel === null || other.batch_size != this.shape.at(-2)) {
       if (device === "gpu") {
         // Get GPU from GPU.js:
-        const {GPU} = require('@eduardoleao052/gpu');
+       import {GPU} from "npm:@eduardoleao052/gpu";
         // If the batch size changed, warn user and update the batch size:
         if (other.batch_size != null){
           other.batch_size = other.shape.at(-2);
